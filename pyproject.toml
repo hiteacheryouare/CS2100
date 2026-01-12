@@ -5,6 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "coverage>=7.8.2",
+    "mypy>=1.16.0",
+    "pylint>=3.1.0",
+    "pylint-json2checkstyle>=0.0.13",
     "ruff>=0.14.10",
     "ty>=0.0.10",
+    "unittest-xml-reporting==3.2.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "homeworks/sp26-hw1-hiteacheryouare",
 ]
