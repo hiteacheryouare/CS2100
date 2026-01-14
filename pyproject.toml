@@ -17,4 +17,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "homeworks/sp26-hw1-hiteacheryouare",
+    "homeworks/sp26-lab0-hiteacheryouare",
 ]

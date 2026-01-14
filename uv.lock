@@ -10,6 +10,7 @@ resolution-markers = [
 members = [
     "cs2100",
     "sp26-hw1-hiteacheryouare",
+    "sp26-lab0-hiteacheryouare",
 ]
 
 [[package]]
@@ -476,6 +477,17 @@ requires-dist = [
     { name = "pylint-json2checkstyle", specifier = ">=0.0.13" },
     { name = "unittest-xml-reporting", specifier = "==3.2.0" },
 ]
+
+[[package]]
+name = "sp26-lab0-hiteacheryouare"
+version = "0.1.0"
+source = { virtual = "homeworks/sp26-lab0-hiteacheryouare" }
+dependencies = [
+    { name = "pylint" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pylint", specifier = ">=4.0.4" }]
 
 [[package]]
 name = "tomlkit"
