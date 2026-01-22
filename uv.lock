@@ -6,13 +6,6 @@ resolution-markers = [
     "python_full_version < '3.12'",
 ]
 
-[manifest]
-members = [
-    "cs2100",
-    "sp26-hw1-hiteacheryouare",
-    "sp26-lab0-hiteacheryouare",
-]
-
 [[package]]
 name = "astroid"
 version = "4.0.3"
@@ -456,38 +449,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/fb/9c/896c862e13886fae2af961bef3e6312db9ebc6adc2b156fe95e615dee8c1/ruff-0.14.10-py3-none-win_amd64.whl", hash = "sha256:466297bd73638c6bdf06485683e812db1c00c7ac96d4ddd0294a338c62fdc154", size = 14661283, upload-time = "2025-12-18T19:29:30.16Z" },
     { url = "https://files.pythonhosted.org/packages/74/31/b0e29d572670dca3674eeee78e418f20bdf97fa8aa9ea71380885e175ca0/ruff-0.14.10-py3-none-win_arm64.whl", hash = "sha256:e51d046cf6dda98a4633b8a8a771451107413b0f07183b2bef03f075599e44e6", size = 13729839, upload-time = "2025-12-18T19:28:48.636Z" },
 ]
-
-[[package]]
-name = "sp26-hw1-hiteacheryouare"
-version = "0.1.0"
-source = { virtual = "homeworks/sp26-hw1-hiteacheryouare" }
-dependencies = [
-    { name = "coverage" },
-    { name = "mypy" },
-    { name = "pylint" },
-    { name = "pylint-json2checkstyle" },
-    { name = "unittest-xml-reporting" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "coverage", specifier = ">=7.8.2" },
-    { name = "mypy", specifier = ">=1.16.0" },
-    { name = "pylint", specifier = ">=3.1.0" },
-    { name = "pylint-json2checkstyle", specifier = ">=0.0.13" },
-    { name = "unittest-xml-reporting", specifier = "==3.2.0" },
-]
-
-[[package]]
-name = "sp26-lab0-hiteacheryouare"
-version = "0.1.0"
-source = { virtual = "homeworks/sp26-lab0-hiteacheryouare" }
-dependencies = [
-    { name = "pylint" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pylint", specifier = ">=4.0.4" }]
 
 [[package]]
 name = "tomlkit"
