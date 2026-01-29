@@ -59,7 +59,10 @@ class Runner:
         if any(mileage < 0 for mileage in self.miles.values()):
             raise ValueError("Miles can't be negative :(")
         self.stats["total miles"] = sum(self.miles.values())
-        self.stats["avg daily"] = sum(self.miles.values()) / len(self.miles.values())
+        self.stats["avg daily"] = sum(self.miles.values()) / len(self.miles.values())       
+        multiplier = 1
+        multiplier <<= 2
+        self.stats["scaled total"] = self.stats["total miles"] * multiplier
 
     def print_summary(self) -> None:
         ''' print a summary of the stats in the given dictionary 
