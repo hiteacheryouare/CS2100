@@ -12,8 +12,10 @@ dependencies = [
     "pandas-stubs>=2.3.3.260113",
     "pylint>=3.1.0",
     "pylint-json2checkstyle>=0.0.13",
+    "requests>=2.32.5",
     "ruff>=0.14.10",
     "ty>=0.0.10",
+    "types-requests>=2.32.4.20260107",
     "unittest-xml-reporting==3.2.0",
 ]
 
